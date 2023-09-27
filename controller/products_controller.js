@@ -23,7 +23,7 @@ module.exports.create =function(req, res){
         if(err){
             res.send(err);
         }else{
-            res.send(JSON.stringify(newProduct));
+            res.send("Products created Successfully");
         }
     });
 }
